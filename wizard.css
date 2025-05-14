@@ -1,0 +1,123 @@
+body {
+    background-image: url(Assets/starrybg.jpg);
+}
+
+ul {
+    width: 200px;
+    height: 100px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    background: rgb(122, 122, 122);
+    list-style: none inside;
+}
+
+ul li {
+    border: 1px solid rgb(255, 255, 255);
+    margin: auto;
+    padding: 10px;
+}
+
+
+.box {
+    width: fit-content;
+    max-width: 30%;
+    height: fit-content;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    font-size: 14pt;
+    color: rgb(255, 255, 255);
+    background: rgb(122, 122, 122);
+    margin: auto;
+    margin-bottom: 50px
+}
+
+.fontInc {
+    font-size: 1.5em;
+}
+
+.fontSmall {
+    font-size: 10pt;
+    color: #cacaca;
+}
+
+.listimg {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.tg {
+    border-collapse:collapse;
+    border-spacing:0;
+    color:white;
+    background:rgb(122, 122, 122);
+    margin:auto;
+}
+
+.tg td {
+    border-color:rgb(255, 255, 255);
+    border-style:solid;border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.tg th {
+    border-color:rgb(255, 255, 255);
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.tg .tg-9wq8 {
+    border-color:inherit;
+    text-align:center;
+    vertical-align:middle;
+    width:fit-content;
+    max-width: 400px;
+}
+
+.tg .tg-za14 {
+    border-color:inherit;
+    text-align:left;
+    vertical-align:bottom
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(122, 122, 122);
+    margin-bottom: 2%;
+}
+
+.topnav a {
+    border-width: 2px;
+    border-color:#ffffff;
+    border-style: dotted;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 1% 5% 1%;
+    margin-left: 10%;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #282928;
+    color: white;
+}
